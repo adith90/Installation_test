@@ -1,6 +1,6 @@
 pipeline {
     
-    agent {label 'slave1'}
+    agent {label 'Jenkins_slave'}
 
     stages{
     stage('Deploy') {
